@@ -1,0 +1,129 @@
+/* .form-area
+{
+   
+   position: absolute;
+   top:65%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 400px;
+   height:750px;
+   box-sizing: border-box;
+   background: rgba(0,0,0,0.5);
+   padding: 40px;
+   
+
+}
+h3{
+    margin:0;
+    padding:0 0 20px;
+    font-weight: bold;
+    color:#ffffff;
+}
+.form-area p
+{
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+.form-area input,select
+{
+    margin-bottom: 20px;
+    width:100%;
+
+}
+.form-area input[type=text],
+.form-area input[type=password]
+{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffffff;
+    display: 16px;
+}
+::placeholder
+{
+    color:#ffffff;
+
+}
+.form-area select
+{
+    margin-top: 12px;
+    padding: 10px 0;
+}
+.form-area input[type=sumbit]
+{
+    border:none;
+    height: 40px;
+    outline:none;
+    color: #ffffff;
+    font-size:15px;
+    background-color: tomato;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+.form-area input[type=sumbit]:hover
+{
+    background-color:cyan;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+} */
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
